@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.1 (2026-09-23)
+
+No changes to the library's output.
+
+- The repository moved to the Stesura organisation: `github.com/stesura/gendered-to-words`.
+  `homepage`, `bugs` and `repository` in `package.json` now point there.
+- Releases are published from GitHub Actions through npm trusted publishing (OIDC), with
+  provenance, instead of a long-lived npm token.
+- **Requires Node 22 or later** (`engines.node` was `>=20.0.0`). Node 20 is out of support;
+  CI now tests Node 22 and 24.
+- Copyright holder is now innov-ars SRL. The original to-words copyright is kept.
+
 ## 0.2.0 (2026-08-04)
 
 Correctness release. **Output changes for many locales** — see "Breaking" below.

@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node: [20, 22]
+        node: [22, 24]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +26,7 @@ jobs:
       - run: npx vitest run
       - run: npm run build
       - name: Validate packaging (exports map, types resolution)
-        if: matrix.os == 'ubuntu-latest' && matrix.node == 22
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
         run: |
           npx --yes publint
           # package.json is exported deliberately (tooling reads it), but it is

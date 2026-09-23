@@ -1,6 +1,6 @@
 {
   "name": "gendered-to-words",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert numbers to cardinal and ordinal words, with gender support, across 40+ locales. Zero dependencies, tree-shakeable.",
   "keywords": [
     "number-to-words",
@@ -12,15 +12,15 @@
     "bigint",
     "typescript"
   ],
-  "homepage": "https://github.com/Ecaratti/gendered-to-words#readme",
+  "homepage": "https://github.com/stesura/gendered-to-words#readme",
   "bugs": {
-    "url": "https://github.com/Ecaratti/gendered-to-words/issues"
+    "url": "https://github.com/stesura/gendered-to-words/issues"
   },
   "license": "MIT",
-  "author": "Ecaratti",
+  "author": "innov-ars SRL",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ecaratti/gendered-to-words.git"
+    "url": "git+https://github.com/stesura/gendered-to-words.git"
   },
   "files": [
     "dist/**/*",
@@ -116,6 +116,6 @@
     "vitest": "^4.0.18"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=22.0.0"
   }
 }
