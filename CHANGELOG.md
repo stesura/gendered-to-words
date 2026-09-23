@@ -10,7 +10,7 @@ No changes to the library's output.
   provenance, instead of a long-lived npm token.
 - **Requires Node 22 or later** (`engines.node` was `>=20.0.0`). Node 20 is out of support;
   CI now tests Node 22 and 24.
-- Copyright holder is now innov-ars SRL. The original to-words copyright is kept.
+- Copyright holder is now Innov-Ars. The original to-words copyright is kept.
 
 ## 0.2.0 (2026-08-04)
 
